@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-master-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeMaster/EmployeeMasterWebPart.js",
+          "manifest": "./src/webparts/employeeMaster/EmployeeMasterWebPart.manifest.json"
+        }
+      ]
+    },
+    "dealer-information-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dealerInformation/DealerInformationWebPart.js",
+          "manifest": "./src/webparts/dealerInformation/DealerInformationWebPart.manifest.json"
+        }
+      ]
+    },
+    "create-query-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/createQuery/CreateQueryWebPart.js",
+          "manifest": "./src/webparts/createQuery/CreateQueryWebPart.manifest.json"
+        }
+      ]
+    },
+    "search-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchWebpart/SearchWebpartWebPart.js",
+          "manifest": "./src/webparts/searchWebpart/SearchWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "upload-information-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadInformation/UploadInformationWebPart.js",
+          "manifest": "./src/webparts/uploadInformation/UploadInformationWebPart.manifest.json"
+        }
+      ]
+    },
+    "get-share-point-listto-grid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getSharePointListtoGrid/GetSharePointListtoGridWebPart.js",
+          "manifest": "./src/webparts/getSharePointListtoGrid/GetSharePointListtoGridWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeDetails/EmployeeDetailsWebPart.js",
+          "manifest": "./src/webparts/employeeDetails/EmployeeDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "assesment-task-one-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/assesmentTaskOne/AssesmentTaskOneWebPart.js",
+          "manifest": "./src/webparts/assesmentTaskOne/AssesmentTaskOneWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "EmployeeMasterWebPartStrings": "lib/webparts/employeeMaster/loc/{locale}.js",
+    "DealerInformationWebPartStrings": "lib/webparts/dealerInformation/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "CreateQueryWebPartStrings": "lib/webparts/createQuery/loc/{locale}.js",
+    "SearchWebpartWebPartStrings": "lib/webparts/searchWebpart/loc/{locale}.js",
+    "UploadInformationWebPartStrings": "lib/webparts/uploadInformation/loc/{locale}.js",
+    "GetSharePointListtoGridWebPartStrings": "lib/webparts/getSharePointListtoGrid/loc/{locale}.js",
+    "EmployeeDetailsWebPartStrings": "lib/webparts/employeeDetails/loc/{locale}.js",
+    "AssesmentTaskOneWebPartStrings": "lib/webparts/assesmentTaskOne/loc/{locale}.js"
+  }
+}
